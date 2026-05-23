@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+#navbar{
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: blue;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+}
+
+#navbar ul{
+    list-style:none;
+    display:flex;
+}
+
+#navbar ul li{
+    margin:0 15px;
+}
+
+#navbar ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+}
+
+/* Hover effect */
+#navbar ul li a:hover{
+    color:yellow;
+}
+
+.content{
+    height:200vh;
+    padding-top:100px;
+    text-align:center;
+}
